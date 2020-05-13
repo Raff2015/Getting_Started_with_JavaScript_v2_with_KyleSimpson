@@ -17,3 +17,11 @@ while (students.length > 0) {
     greetStudents(student);
 }
 */
+
+var students = ["Edgar", "Claudia", "Jeremiah"];
+
+while (students.length > 0) {
+    let student = students.shift(); // shift takes the array from the beginning
+    //let student = students.pop(); //pop() is taking from the end to the beginning
+    console.log(`Hello, ${student}!`);
+}
