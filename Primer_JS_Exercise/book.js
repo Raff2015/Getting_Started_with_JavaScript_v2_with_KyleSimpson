@@ -66,7 +66,7 @@ for (let..of..) {}
 */
 
 function addFavoriteBook(bookName) {
-    if (bookName.includes("Great")) {
+    if (!bookName.includes("Great")) {
         favoriteBooks.push(bookName);
     }
 }
