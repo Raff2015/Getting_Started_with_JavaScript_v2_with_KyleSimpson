@@ -65,16 +65,16 @@ for (let..of..) {}
 
 */
 
-function addFavoriteBook(bookName) {
-    if (!bookName.includes("Great")) {
-        favoriteBooks.push(bookName);
+function addFavoriteBook(bookName) { //Function
+    if (!bookName.includes("Great")) { //! Not include Book that name has "Great" in it
+        favoriteBooks.push(bookName); // push the array that dont have "Great" in it.  
     }
 }
 
 function printFavoriteBooks() {
-    console.log(`Favorite Books: ${favoriteBooks.length}`);
-    for (let bookName of favoriteBooks) {
-        console.log(bookName);
+    console.log(`Favorite Books: ${favoriteBooks.length}`); // length PRINTS the # of book without "Great"
+    for (let bookName of favoriteBooks) { //Loop to get all the values in the Array
+        console.log(bookName); // PRINTS all the values in the Array except "Great"
     }
 }
 
