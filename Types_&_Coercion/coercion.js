@@ -11,8 +11,7 @@ from one type to another (such as string to number,
     String + Number = String
     String + String = String
     
-    */
-
+*/
 
 var msg1 = "There are ";
 var numStudents = 16;
